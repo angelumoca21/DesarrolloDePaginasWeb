@@ -12,6 +12,7 @@ El estudiantado aplicará los conocimientos básicos en lenguaje HTML y lenguaje
 - 50% Proyecto final
 
 ## Temario 
+- [0.Fundamentos del desarrollo web](./0.FDW.md)
 - [1.Introducción](./1.I.md)
 - [2.Herramientas para la creación de páginas web](./2.HPLCDPW.md)
 - [3.Estructura básica de un documento HTML](./3.EBDUDHTML.md)
