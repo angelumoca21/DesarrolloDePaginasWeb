@@ -11,6 +11,11 @@ El estudiantado aplicará los conocimientos básicos en lenguaje HTML y lenguaje
 - 50% Actividades en sesiones
 - 50% Proyecto final
 
+## Archivos compartidos
+
+- [Carpeta de OneDrive](https://1drv.ms/f/c/edf94a6ffb476604/EoesUJxZDDpCghJQ1-qUgrIBbysMcvB5j1oiYju0TGCHoQ?e=14U7jb)
+
+
 ## Temario 
 - [0.Fundamentos del desarrollo web](./0.FDW.md)
 - [1.Introducción](./1.I.md)
