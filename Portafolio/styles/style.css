@@ -5,6 +5,11 @@
     font-family: 'Montserrat';
 }
 
+nav{
+    position: sticky;
+    top: 0px;
+}
+
 #navegadorPrincipal {
     background-color: #F9F9F6;
     list-style: none;
@@ -64,4 +69,46 @@
 #logos_redes li img {
     width: 40px;
     height: auto;
-}    
+}
+
+#SecCompleta {
+    background-color: #F9F9F6;
+    padding: 50px;
+}
+
+#mainFoto{
+    width: 250px;
+    height: auto;
+    border-radius: 200px;
+    float: left;
+}
+
+#SecSobreMi{
+    padding-left: 350px;
+}
+
+#h2SecSobreMi{
+    padding-bottom: 30px;
+    color: #F57C00;
+}
+
+#pSecSobreMi{
+    padding-bottom: 70px;
+    text-align: justify;
+    color: #2E3A3F;
+}
+
+#BotonSecSobreMi{
+    color: #2E3A3F;
+    background-color: #F57C00;
+    width: 200px;
+    height: 40px;
+    border: 1px #2E3A3F solid;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#BotonSecSobreMi:hover{
+    color: #F57C00;
+    background-color: #2E3A3F;
+}
