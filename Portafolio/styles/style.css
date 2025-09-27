@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 #navegadorPrincipal {
@@ -42,8 +43,25 @@
 
 #encabezado h1 {
     color: #F9F9F6;
+    padding: 40px 0px 40px 50px;
 }
 
 #encabezado h3 {
-    color: #F57C00;
+    color: #F9F9F6;
+    margin-left: 50px;
 }
+
+#logos_redes {
+    padding-left: 50px;
+}
+
+#logos_redes li {
+    display: inline-block;
+    padding: 50px 20px 10px 0px;
+
+}
+
+#logos_redes li img {
+    width: 40px;
+    height: auto;
+}    
