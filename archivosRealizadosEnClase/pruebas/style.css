@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    height: 15vh;
+}
+
+nav {
+    float: inline-end;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+main{
+    height: 70vh;
+}
+
+aside{
+    float: left;
+    background-color: red;
+    height: 70vh;
+    width: 30vh;
+}
+
+section{
+    background-color: blue;
+    height: 70vh;
+}
+
+footer {
+    height: 15vh;
+    background-color: orange;
+}

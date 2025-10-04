@@ -1,0 +1,36 @@
+main {
+    border: black solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div {
+    border: red solid 1px;
+    height: 100px;
+    width: 100px;
+}
+
+#uno {
+    background-color: yellow;
+}
+
+#dos {
+    background-color: greenyellow;
+}
+
+#tres {
+    background-color: skyblue;
+}
+
+#cuatro {
+    background-color: orange;
+}
+
+#cinco {
+    background-color: pink;
+}
+
+#seis {
+    background-color: violet;
+}
