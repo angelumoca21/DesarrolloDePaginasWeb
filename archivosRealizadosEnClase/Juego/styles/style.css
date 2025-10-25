@@ -1,0 +1,86 @@
+:root {
+    --colorPrincipal: #E3F2FD;
+    --colorSecundario: #1976D2;
+    --colorTexto: #212121;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: var(--colorPrincipal);
+    color: #212121;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--colorSecundario);
+}
+
+main {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #212121 5px dotted;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contenedorSection {
+    margin: 10px 0px;
+}
+
+section h4{
+    color: var(--colorSecundario);
+    font-weight: bolder;
+}
+
+#cajaNumero{
+    height: 40px;
+    text-align: center;
+}
+
+#cajaBotones input{
+    height: 50px;
+    width: 100px;
+    margin: 0px 10px;
+    background-color: var(--colorTexto);
+    color: #E3F2FD;
+    border-radius: 10px;
+}
+
+#cajaBotones input:hover{
+    background-color: var(--colorSecundario);
+}
+
+#logoMain {
+    height: 300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: 70px;
+}

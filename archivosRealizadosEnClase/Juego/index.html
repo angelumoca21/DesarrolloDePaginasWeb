@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Juego del número secreto</title>
+</head>
+<body>
+    <header>
+        <h1>EL NÚMERO SECRETO </h1>
+    </header>
+    <main>
+        <section>
+            <h2 class="contenedorSection">BIENVENIDO AL JUEGO DEL NÚMERO SECRETO</h2>
+            <h3 class="contenedorSection">Deberás adivinar el número que estoy pensando.</h3>
+            <h4 class="contenedorSection"></h4>
+            <input class="contenedorSection" id="cajaNumero" type="number">
+            <div id="cajaBotones" class="contenedorSection">
+                <input type="button" value="Intentar" onclick="intento()">
+                <input type="button" value="Reiniciar" onclick="reiniciarJuego()">
+            </div>
+        </section>
+        <figure>
+            <img id="logoMain" src="./img/logo.png" alt="Logo de juego">
+        </figure>
+    </main>
+    <footer>
+        <img src="./img/logo2.png" alt="Logo Angel Morales">
+        <p>2025 - Escuela de código - Desarrollo de páginas web</p>
+    </footer>
+</body>
+</html>
